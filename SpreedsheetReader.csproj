@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.102.2" />
+  </ItemGroup>
+    <PropertyGroup>
+        <Version>1.0.0</Version>
+        <!-- Specify your version -->
+        <Authors>Federico DArmini</Authors>
+        <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+        <PackageId>SpreadsheetReader</PackageId>
+        <Product>$(AssemblyName)</Product>
+        <Description>Use this package to read any spreadsheet file</Description>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    </PropertyGroup>
+
+</Project>
